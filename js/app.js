@@ -1,22 +1,25 @@
+// get each item price
 function getItemPrice(itemId, price) {
     const eachItemPrice = document.getElementById(itemId);
     eachItemPrice.innerText = price;
 }
 
+// update total price
 function updateTotal() {
     const bestPrice = parseFloat(document.getElementById('best-price').innerText);
     let memoryPrice = parseFloat(document.getElementById('memory-price').innerText);
     let storagePrice = parseFloat(document.getElementById('storage-price').innerText);
     let deliveryPrice = parseFloat(document.getElementById('delivery-charge').innerText);
+    // calculate total price
     let totalPrice = document.getElementById('total-price').innerText = bestPrice + memoryPrice + storagePrice + deliveryPrice;
 
-    // update grand total
+    // update grand total price
     let total = document.getElementById('grand-total');
     total.innerText = totalPrice;
     return totalPrice;
 }
 
-// update grand total when use promo code
+// update grand total price when use promo code
 function updateGrandTotal() {
     const promoCode = document.getElementById('promo-code-input');
     const promoCodetText = promoCode.value;
