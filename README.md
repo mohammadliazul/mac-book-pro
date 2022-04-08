@@ -1,3 +1,6 @@
+![Mac book pro](https://user-images.githubusercontent.com/34336244/162455011-86e8fdce-f54e-4a20-962b-ba8874aa5be1.jpg)
+
+
 # Mac-book-pro-purchase-checkout
 live site url: [mac-book-pro-purchase-checkout](https://mac-book-pro-cart-checkout.netlify.app/).
 
